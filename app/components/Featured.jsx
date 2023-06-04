@@ -1,16 +1,22 @@
 import Image from "next/image";
 import styles from "../../styles/Featured.module.css";
-import Logo from '../../public/images/logo.png';
+import PizzaPng from "../../public/images/hero-bg.png";
+import Logo from "../../public/images/logo.png";
 
 const Featured = () => {
   return (
     <div className={styles.container}>
-        <div className={styles.textContent}>
-            <Image src={Logo} alt="" width={300}/>
-            <p className={styles.paragraph}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, eveniet. Minima, expedita? Fugiat nam harum accusamus, voluptatem laboriosam, unde consectetur tempora minima quisquam consequatur, sequi delectus neque? Inventore, voluptatibus molestias.</p>
-            <button className={styles.button}>Menu</button>
-            <button className={styles.button}>Blogs</button>
-        </div>
+      <div className={styles.textContent}>
+        <h2 className={styles.text}>You can order pizza through this website</h2>
+        <p className={styles.paragraph}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum at
+          aliquid nemo facilis? Optio, repellat sequi. Necessitatibus ab
+          perferendis maxime dignissimos harum nisi animi excepturi voluptate,
+          explicabo, similique quasi voluptatum!
+        </p>
+        <button className={styles.button}>See more</button>
+      </div>
+      <Image src={PizzaPng} alt="" width={600} />
     </div>
   );
 };
