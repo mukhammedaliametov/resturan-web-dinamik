@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+.container {
+  padding: 10px;
+}
+
+.contentText{
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.paragraph{
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 2rem;
+  padding: 50px;
+}
+
+.card{
+  text-align: center;
+}
+
+.title{
+  padding: 10px;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.money{
+  padding: 5px;
+}
+
+.info{
+  padding: 5px 10px;
+}

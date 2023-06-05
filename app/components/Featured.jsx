@@ -1,7 +1,6 @@
 import Image from "next/image";
 import styles from "../../styles/Featured.module.css";
 import PizzaPng from "../../public/images/hero-bg.png";
-import Logo from "../../public/images/logo.png";
 
 const Featured = () => {
   return (
